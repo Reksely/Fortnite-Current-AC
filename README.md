@@ -16,6 +16,6 @@ C# :
             client.DownloadFile("https://raw.githubusercontent.com/Reksely/Fortnite-Current-AC/main/FortniteClient-Win64-Shipping_EAC.exe", fnpathfordownload + "/FortniteClient-Win64-Shipping_EAC.exe");
             
 C++ :
-        WaitForSingleObject(Fortnite, INFINITE);
-DownloadFile("https://raw.githubusercontent.com/Reksely/Fortnite-Current-AC/main/FortniteClient-Win64-Shipping_BE.exe", fnPath + "FortniteClient-Win64-Shipping_BE.exe");
-DownloadFile("https://raw.githubusercontent.com/Reksely/Fortnite-Current-AC/main/FortniteClient-Win64-Shipping_EAC.exe", fnPath + "FortniteClient-Win64-Shipping_EAC.exe");
+        WaitForSingleObject(Fortnite, INFINITE); // wait
+        DownloadFile("https://raw.githubusercontent.com/Reksely/Fortnite-Current-AC/main/FortniteClient-Win64-Shipping_BE.exe", fnPath + "FortniteClient-Win64-Shipping_BE.exe");
+        DownloadFile("https://raw.githubusercontent.com/Reksely/Fortnite-Current-AC/main/FortniteClient-Win64-Shipping_EAC.exe", fnPath + "FortniteClient-Win64-Shipping_EAC.exe");
